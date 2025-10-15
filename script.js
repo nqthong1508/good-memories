@@ -1,27 +1,25 @@
 // ====== DỮ LIỆU ẢNH & VIDEO ======
 const albums = [
   {
-    title: "Family Photos 👨‍👩‍👧",
-    cover: "https://picsum.photos/id/1018/300/200",
-    folderId: "1E4EZFzkcIR5GwhBa-oioKLHS4ex_2qWb"    
+    title: "Family Photos",
+    cover: "https://drive.google.com/thumbnail?id=1vOhzTDVZJT8J21Z-7nA_1skIi7i1fPjj",
+    folderId: "17UiQV2B41O0kZC_YxtJBrvLlnkjshGIl"    
   },
   {
-    title: "Friends Photos ",
-    cover: "https://picsum.photos/id/1005/300/200",
-    photos: [
-      "https://picsum.photos/id/1005/800/600",
-      "https://picsum.photos/id/1006/800/600",
-      "https://picsum.photos/id/1008/800/600"
-    ]
+    title: "Friends Photos",
+    cover: "https://drive.google.com/thumbnail?id=1sqIk_mhSMpQzW0TArqWqYWRYltEHlYni",
+    folderId: "15ZUF4mnisPiCG3RjjHcf9xIoT3xCzK93"    
   }
 ];
 
 const driveVideos = [
-  { id: "1vgtOEN5IXvV18XoiUJpPYk_xFbaknrts", title: "My son 🎥" }
+  { id: "1apiGKmR1fh5QKSlwfCWtAp8YszN_bZvs", title: "Swimming" },
+  { id: "1ocY5GDIrx2_ZBZMNcvtEebDn5XhsiKPS", title: "Skiing" },
+  { id: "1-TH-WMzKnLZtMurwvrrh1CQ9Uzl-m3ZG", title: "Playing Piano" }
 ];
 
 const youtubeVideos = [
-  { id: "YbJOTdZBX1g", title: "YouTube Demo ❤️" }
+  { id: "YbJOTdZBX1g", title: "YouTube Demo" }
 ];
 
 // ====== HELPER FUNCTIONS ======
